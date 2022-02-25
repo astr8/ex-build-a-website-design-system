@@ -6,7 +6,7 @@ body {
 
 /* header*/
 header {
-  border: 2px solid #a2a2a6;
+  border: 2px solid #68689e;
   padding: 10px;
   margin: 10px auto;
 }
@@ -23,7 +23,7 @@ header {
 }
 
 .first color-panel {
-  background-color: #2d5dcc;
+  background-color: #275bd3;
   color: #fff;
 }
 
@@ -37,13 +37,25 @@ header {
   text-decoration: underline;
 }
 
-.second color-panel {}
+.second color-panel {
+    background-color: #44cf19ea;
+    color: #fff
+}
 
-.third color-panel {}
+.third color-panel {
+    background-color: #e60aaf;
+    color: #000;
+}
 
-.fourth color-panel {}
+.fourth color-panel {
+    background-color: #ff9d0a;
+    color: #000;
+}
 
-.fifth color-panel {}
+.fifth color-panel {
+    background-color: #fadea2;
+    color: #000;
+}
 /* section font */
 
 /* section text style */
