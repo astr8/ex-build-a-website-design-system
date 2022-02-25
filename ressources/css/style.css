@@ -1,6 +1,6 @@
 /* general informations */
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0 10%;
 }
 
@@ -12,17 +12,21 @@ header {
 }
 
 /* section color*/
-.colors {}
+.colors {
+    border: 2px solid #68689e;
+    padding: 15px;
+    margin: 20px auto;
+}
 
 .color-container {
   display: inline-block;
-  width: 32%;
+  width: 35%;
   text-align: center;
   margin: 20px auto;
-  min-height: 100px;
+  padding: 5 px;
 }
 
-.first color-panel {
+.first-color-panel {
   background-color: #275bd3;
   color: #fff;
 }
@@ -37,22 +41,22 @@ header {
   text-decoration: underline;
 }
 
-.second color-panel {
+.second-color-panel {
     background-color: #44cf19ea;
     color: #fff
 }
 
-.third color-panel {
+.third-color-panel {
     background-color: #e60aaf;
     color: #000;
 }
 
-.fourth color-panel {
+.fourth-color-panel {
     background-color: #ff9d0a;
     color: #000;
 }
 
-.fifth color-panel {
+.fifth-color-panel {
     background-color: #fadea2;
     color: #000;
 }
