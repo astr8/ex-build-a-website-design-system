@@ -4,6 +4,10 @@ body {
   margin: 0 10%;
 }
 
+div {
+  display: block;
+}
+
 /* header*/
 header {
   border: 2px solid #68689e;
@@ -19,14 +23,18 @@ header {
 }
 
 .color-container {
-  display: inline-block;
-  width: 35%;
-  text-align: center;
-  margin: 20px auto;
-  padding: 5 px;
+  width: 100%;
 }
 
-.first-color-panel {
+.color-panel {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
+}
+
+.first {
   background-color: #275bd3;
   color: #fff;
 }
@@ -41,22 +49,22 @@ header {
   text-decoration: underline;
 }
 
-.second-color-panel {
+.second {
     background-color: #44cf19ea;
     color: #fff
 }
 
-.third-color-panel {
+.third {
     background-color: #e60aaf;
     color: #000;
 }
 
-.fourth-color-panel {
+.fourth {
     background-color: #ff9d0a;
     color: #000;
 }
 
-.fifth-color-panel {
+.fifth {
     background-color: #fadea2;
     color: #000;
 }
@@ -69,10 +77,14 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Redressed', cursive;*/
 
 .font-container {
+  width: 100%;
+}
+
+.font-panel{
   display: inline-block;
   width: 35%;
   text-align: left;
-  margin: 20px auto;
+  margin: 20px 10px;
   padding: 5 px;
 }
 
