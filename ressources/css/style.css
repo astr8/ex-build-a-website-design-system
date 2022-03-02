@@ -71,9 +71,14 @@ font-family: 'Redressed', cursive;*/
 .font-container {
   display: inline-block;
   width: 35%;
-  text-align: center;
+  text-align: left;
   margin: 20px auto;
   padding: 5 px;
+}
+
+.font-label {
+  text-decoration: underline;
+  font-size: 20px;
 }
 
 .regular {
@@ -109,7 +114,7 @@ font-family: 'Redressed', cursive;*/
 .text-container {
   display: inline-block;
   width: 35%;
-  text-align: center;
+  text-align: left;
   margin: 20px auto;
   padding: 5 px;
 }
